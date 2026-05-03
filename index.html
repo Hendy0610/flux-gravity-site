@@ -17,12 +17,17 @@
     }
     h1 { color: #00ffe6; font-size: 28px; margin-bottom: 6px; letter-spacing: 2px; }
     h2 { color: #00ffe6; font-size: 16px; margin: 28px 0 8px; letter-spacing: 1px; text-transform: uppercase; }
+    h3 { color: #00ffe6; font-size: 14px; margin: 20px 0 6px; letter-spacing: 1px; }
     p, li { font-size: 14px; color: #8899aa; }
-    ul { padding-left: 20px; }
+    p { margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-bottom: 8px; }
     li { margin-bottom: 4px; }
     a { color: #00ffe6; }
     .updated { font-size: 12px; color: #556677; margin-bottom: 32px; }
+    .meta { font-size: 13px; color: #8899aa; margin-bottom: 4px; }
+    .meta strong { color: #c8d8e8; }
     hr { border: none; border-top: 1px solid #1a2a3a; margin: 32px 0; }
+    .label { font-size: 12px; color: #556677; text-transform: uppercase; letter-spacing: 1px; margin-top: 10px; display: block; }
   </style>
 </head>
 <body>
@@ -30,40 +35,142 @@
   <h1>FLUX GRAVITY</h1>
   <p class="updated">Privacy Policy · Last updated: May 2026</p>
 
-  <p>Flux Gravity ("we", "our", or "the app") is a free arcade game. This policy explains what data is collected and how it is used.</p>
+  <!-- 1. Overview -->
+  <h2>1. Overview</h2>
+  <p>This Privacy Policy explains how Flux Gravity ("we", "our", "the app") collects, uses, and processes personal data when you use the mobile game.</p>
+  <p>We are committed to protecting your privacy in accordance with the General Data Protection Regulation (GDPR) and other applicable laws.</p>
 
-  <h2>1. Data We Collect</h2>
-  <p>We do not directly collect or store any personally identifiable information. The following third-party services may collect data as described in their own privacy policies:</p>
+  <hr/>
+
+  <!-- 2. Data Controller -->
+  <h2>2. Data Controller</h2>
+  <p class="meta"><strong>Hendrik Schulze</strong></p>
+  <p class="meta">Email: <a href="mailto:hendy0610@gmail.com">hendy0610@gmail.com</a></p>
+
+  <hr/>
+
+  <!-- 3. Data We Collect -->
+  <h2>3. Data We Collect</h2>
+
+  <h3>3.1 Analytics Data</h3>
+  <p>We use Firebase Analytics to collect anonymized usage data, including:</p>
   <ul>
-    <li><strong>Google AdMob</strong> – serves advertisements. May collect device identifiers and usage data to personalise ads. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
-    <li><strong>Firebase Analytics</strong> – collects anonymised in-app event data (e.g. game started, score reached) to help us improve the game. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+    <li>Game events (e.g. game start, game over)</li>
+    <li>Scores and progress</li>
+    <li>In-game actions (e.g. purchases, settings changes)</li>
+    <li>Ad interactions</li>
+  </ul>
+  <span class="label">Purpose</span>
+  <p>Improve gameplay, balance, and user experience</p>
+  <span class="label">Legal basis (EU)</span>
+  <p>Art. 6(1)(a) GDPR (consent)</p>
+
+  <h3>3.2 Advertising Data</h3>
+  <p>We use Google AdMob to display ads. This may involve collecting:</p>
+  <ul>
+    <li>Device identifiers (e.g. IDFA on iOS, Advertising ID on Android)</li>
+    <li>IP address</li>
+    <li>Interaction with ads</li>
+  </ul>
+  <span class="label">Purpose</span>
+  <p>Show ads, including personalized ads (if consent is given)</p>
+  <span class="label">Legal basis (EU)</span>
+  <p>Art. 6(1)(a) GDPR (consent)</p>
+
+  <h3>3.3 In-App Purchases</h3>
+  <p>When you make purchases (e.g. "Remove Ads"):</p>
+  <ul>
+    <li>Transaction data is processed by Apple App Store or Google Play</li>
+    <li>Purchase events may be tracked via Firebase Analytics</li>
+  </ul>
+  <p>We do not receive payment details.</p>
+  <span class="label">Legal basis</span>
+  <p>Art. 6(1)(b) GDPR (contract performance)</p>
+
+  <h3>3.4 Consent Management</h3>
+  <p>We use Google User Messaging Platform (UMP) to ask for user consent and store consent status.</p>
+
+  <hr/>
+
+  <!-- 4. Data Stored Locally -->
+  <h2>4. Data Stored Locally</h2>
+  <p>The following data is stored only on your device and not transmitted:</p>
+  <ul>
+    <li>High score</li>
+    <li>Collected shards</li>
+    <li>Unlocked skins/backgrounds</li>
+    <li>Settings (sound, haptics, mute)</li>
+    <li>Ad-removal status</li>
   </ul>
 
-  <h2>2. Advertising & Tracking (iOS)</h2>
-  <p>On iOS, we request permission via Apple's App Tracking Transparency framework before any cross-app tracking occurs. You can change this at any time in <strong>Settings → Privacy → Tracking</strong>.</p>
-  <p>If you are located in the European Economic Area (EEA), we will ask for your consent before showing personalised ads. You can withdraw or change your consent at any time via the <strong>Privacy Options</strong> link on the main menu.</p>
+  <hr/>
 
-  <h2>3. Local Storage</h2>
-  <p>The game stores the following data locally on your device only — it is never transmitted to our servers:</p>
+  <!-- 5. Third-Party Services -->
+  <h2>5. Third-Party Services</h2>
+  <p>We use the following third-party providers:</p>
+
+  <h3>Google AdMob</h3>
+  <p><a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+  <h3>Firebase Analytics</h3>
+  <p><a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></p>
+
+  <h3>Apple App Store / Google Play Billing</h3>
+  <p><a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a></p>
+  <p><a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+  <p style="margin-top:12px;">These providers may process data outside the EU. In such cases, appropriate safeguards (e.g. Standard Contractual Clauses) apply.</p>
+
+  <hr/>
+
+  <!-- 6. Tracking & Consent -->
+  <h2>6. Tracking &amp; Consent (ATT / GDPR)</h2>
+  <p>On iOS, we request permission via App Tracking Transparency (ATT) before accessing the IDFA.</p>
+  <p>You can change your consent at any time via:</p>
   <ul>
-    <li>Your best score</li>
-    <li>Total gravity shards collected</li>
-    <li>Unlocked and equipped skins</li>
-    <li>Mute preference</li>
-    <li>Whether you have purchased "Remove Ads"</li>
+    <li>In-app privacy settings (Privacy Options in the main menu)</li>
+    <li>Device settings</li>
   </ul>
 
-  <h2>4. In-App Purchases</h2>
-  <p>The "Remove Ads" purchase is processed entirely by Apple via the App Store. We do not receive or store any payment information.</p>
+  <hr/>
 
-  <h2>5. Children's Privacy</h2>
-  <p>Flux Gravity is not directed at children under 13. We do not knowingly collect data from children. If you believe a child has provided personal data, please contact us.</p>
+  <!-- 7. Your Rights -->
+  <h2>7. Your Rights (EU Users)</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>Access your data (Art. 15 GDPR)</li>
+    <li>Rectify inaccurate data (Art. 16 GDPR)</li>
+    <li>Request deletion (Art. 17 GDPR)</li>
+    <li>Restrict processing (Art. 18 GDPR)</li>
+    <li>Data portability (Art. 20 GDPR)</li>
+    <li>Withdraw consent at any time (Art. 7 GDPR)</li>
+  </ul>
+  <p>To exercise your rights, contact: <a href="mailto:hendy0610@gmail.com">hendy0610@gmail.com</a></p>
 
-  <h2>6. Changes to This Policy</h2>
-  <p>We may update this policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  <hr/>
 
-  <h2>7. Contact</h2>
-  <p>If you have questions about this privacy policy, please open an issue on our <a href="https://github.com/Hendy0610/flux-gravity" target="_blank">GitHub repository</a>.</p>
+  <!-- 8. Data Retention -->
+  <h2>8. Data Retention</h2>
+  <p>We retain data only as long as necessary for the purposes described above or as required by law.</p>
+
+  <hr/>
+
+  <!-- 9. Children's Privacy -->
+  <h2>9. Children's Privacy</h2>
+  <p>This app is not directed to children under 13. We do not knowingly collect personal data from children.</p>
+
+  <hr/>
+
+  <!-- 10. Changes -->
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Changes will be reflected on this page.</p>
+
+  <hr/>
+
+  <!-- 11. Contact -->
+  <h2>11. Contact</h2>
+  <p>If you have questions about this Privacy Policy:</p>
+  <p>📧 <a href="mailto:hendy0610@gmail.com">hendy0610@gmail.com</a></p>
 
   <hr/>
   <p style="font-size:12px; color:#334455;">© 2026 Flux Gravity. All rights reserved.</p>
